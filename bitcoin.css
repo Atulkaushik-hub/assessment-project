@@ -1,0 +1,36 @@
+#authornews{
+    background-color: red;
+}
+
+#bitcoinarticle{
+    
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+#left {
+  margin: 8%;
+  background-color: rgba(255,255,255,0.5);
+  padding: 5% 10%;
+}
+
+#left div{
+  margin: 1em 0;
+}
+#image{
+    height :280px;
+
+    margin: 10%;
+    border: black;
+   
+}
+body{
+    background-image: url("bitcoin.jpg"), linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
